@@ -1,4 +1,4 @@
-# GPX Trimmer 🏃 [![Streamlit app](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/ozhanozen/gpx-trimmer/main)
+# GPX Trimmer 🏃 [![Streamlit app](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gpx-trimmer.streamlit.app/)
 
 A lightweight tool to trim long pauses from GPX tracks.
 
@@ -16,7 +16,7 @@ This application detects the **long** pauses in your GPX file and removes them, 
 
 **Option 1: Running online:**
 
-Go to the [Streamlit Link](https://share.streamlit.io/ozhanozen/gpx-trimmer/main)
+Go to the [Streamlit app link](https://gpx-trimmer.streamlit.app/)
  and follow the instructions.
 
 **Option 2: Running locally:**
