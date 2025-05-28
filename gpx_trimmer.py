@@ -142,7 +142,7 @@ def _trim_track(original: GPX, *, min_speed: float = 0.5, min_pause_duration: in
 
         # GPX consumers need monotonically increasing timestamps
         if last_time and new.time <= last_time:
-            new.time = last_time + datetime.timedelta(seconds=1)
+            new.time = last_time + datetime.timedelta(milliseconds=1)
         dst_seg.points.append(new)
         return new.time  # → becomes the next last_time
 
